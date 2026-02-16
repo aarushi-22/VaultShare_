@@ -1,0 +1,75 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+.next/
+out/
+build/
+dist/
+coverage/
+
+# =========================
+# Environment variables & secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# AWS credentials (JUST IN CASE)
+.aws/
+**/aws-exports.js
+**/amplifyconfiguration.json
+**/amplifyconfiguration.ts
+**/awsconfiguration.json
+
+# =========================
+# Logs & debug
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# TypeScript / tooling
+# =========================
+*.tsbuildinfo
+next-env.d.ts
+
+# =========================
+# Testing
+# =========================
+cypress/screenshots/
+cypress/videos/
+
+# =========================
+# Vercel / deployment
+# =========================
+.vercel/
+
+# =========================
+# Misc safety
+# =========================
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.keystore
