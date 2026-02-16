@@ -50,10 +50,6 @@ VaultShare is a secure file-sharing platform that allows verified users to excha
 - Public access to storage resources is disabled.
 - Temporary access is revoked automatically after expiration.
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 - Node.js
 - AWS account with Cognito, S3, DynamoDB, Lambda, and API Gateway configured
-
-npm install
